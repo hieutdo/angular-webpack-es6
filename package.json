@@ -1,0 +1,14 @@
+{
+  "name": "angular-webpack-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js"
+  },
+  "author": "Hieu Trong Do",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.2"
+  }
+}
