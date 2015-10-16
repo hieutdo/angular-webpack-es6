@@ -4,11 +4,13 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build": "webpack --config config/webpack.config.js"
+    "build": "webpack --config config/webpack.config.js",
+    "dev": "webpack-dev-server --config config/webpack.config.js --content-base build --progress --colors --hot --devtool eval --port 9100"
   },
   "author": "Hieu Trong Do",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
   }
 }
