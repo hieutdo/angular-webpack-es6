@@ -2,7 +2,6 @@ import path from 'path';
 
 export default {
     entry: [
-        'webpack/hot/dev-server',
         path.resolve(__dirname, '../app/app.js')
     ],
     output: {

@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "build": "webpack --config config/webpack.config.babel.js",
-    "dev": "webpack-dev-server --config config/webpack.config.babel.js --content-base build --progress --colors --hot --devtool eval --port 9100"
+    "dev": "webpack-dev-server --config config/webpack.config.babel.js --content-base build --progress --colors --inline --hot --devtool eval --port 9100"
   },
   "author": "Hieu Trong Do",
   "license": "ISC",
